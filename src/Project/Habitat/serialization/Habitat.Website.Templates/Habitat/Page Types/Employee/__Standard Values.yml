@@ -9,7 +9,7 @@ SharedFields:
   Hint: __Renderings
   Type: layout
   Value: |
-    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <r>
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
         l="{ED043C36-CD48-4EDF-A288-EC404EE1CD42}">
@@ -17,6 +17,10 @@ SharedFields:
           id="{E7AE3F87-CF66-40F2-A9F5-33ECF08BC777}"
           ph="head"
           uid="{E6CA18D8-321D-4105-9C38-0622E94BE400}" />
+        <r
+          id="{3FDF57CB-43ED-467E-9B23-FC293F24C96E}"
+          ph="section"
+          uid="{75238BC5-A0A6-4094-89D9-10A8AED778B9}" />
         <r
           id="{3389CAFC-000C-41E5-921C-92821B3DB7B5}"
           ph="head"
@@ -64,9 +68,7 @@ SharedFields:
           ph="navbar-activity"
           uid="{79242576-4E0A-4CBF-BC2B-8B0C47FE9B64}" />
         <r
-          ds=""
           id="{8C3A2CFC-18FB-4BF5-8584-50EA88978ED6}"
-          par=""
           ph="navbar-activity"
           uid="{9C8A45F2-7008-42C1-8B8A-80A88825C1D8}" />
         <r
@@ -81,7 +83,7 @@ SharedFields:
         <r
           id="{C6E4CC96-91AC-4074-AD62-7DAE344F995D}"
           ph="page-header"
-          uid="{EB352679-4420-46AE-95B0-7CA976C24194}" />
+          uid="{54444ED7-ACE0-40DD-8411-90C02B4D9AB2}" />
         <r
           id="{1149A3C7-C69A-4E6B-A6C3-32687EC2F8D4}"
           par="UseStaticPlaceholderNames=1"
@@ -118,7 +120,7 @@ SharedFields:
           ds="{B4D87E66-D2C5-4C06-8F9A-08AEAF38055A}"
           id="{F366FBA9-EF26-4007-988A-63CB64649C46}"
           ph="/footer/section/col-narrow-2"
-          uid="{0E0C6DCA-1A29-4975-84D7-E99498A64A72}" />
+          uid="{BF4B63AD-E6A2-4B20-B669-D26E1218556C}" />
         <r
           ds="{D24907F7-1A25-43DC-A5A2-FCB1E55EBBB6}"
           id="{781C6B36-4B02-46EA-8ADC-B92A11877F10}"

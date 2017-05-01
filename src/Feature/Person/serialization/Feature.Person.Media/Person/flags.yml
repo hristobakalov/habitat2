@@ -1,0 +1,14 @@
+﻿---
+ID: "bddfa0a9-23af-4e19-982e-968d1a123300"
+Parent: "4cd65ef1-339d-475e-91ec-0f08e9cc1042"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Feature/Person/flags
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170425T135158Z

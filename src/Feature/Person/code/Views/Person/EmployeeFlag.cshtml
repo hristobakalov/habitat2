@@ -1,0 +1,39 @@
+﻿@using Sitecore.Feature.Person
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Data.Managers
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@if (!Model?.Item?.IsDerived(Templates.Person.ID) ?? true)
+{
+    @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.Person.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+    return;
+}
+@{
+
+    var db = Sitecore.Data.Database.GetDatabase("web");
+    //var imageItem = db.GetItem(imageUrl);
+    //var imageItem2 = db.GetItem(imageUrl2);
+    var imageItem3 = db.GetItem("/sitecore/media library/Feature/Person/flags/flag_" + Model.Item.Field(Templates.Employee.Fields.Country));
+    string imageUrl = "";
+    if (imageItem3 != null)
+    {
+         imageUrl = Sitecore.Resources.Media.MediaManager.GetMediaUrl(imageItem3);
+    }
+
+}
+@if (imageItem3 != null)
+{
+    <div>
+        @Model.Item.Fields["Country"].Value
+        <h1>Country: @Model.Item.Field(Templates.Employee.Fields.Country)</h1>
+        <img src="@imageUrl" alt="@Model.Item.Field(Templates.Employee.Fields.Country)" />
+
+    </div>
+}
+else
+{
+    <div>Country name is wrong</div>
+}
+

@@ -22,6 +22,9 @@ Languages:
     - ID: "0ee2f208-1fee-42fc-8051-6696d49a92bf"
       Hint: OpenGraphTitle
       Value: John Doe
+    - ID: "11107ccb-8eb3-4309-8dd1-cba870338904"
+      Hint: Website
+      Value: john.doe.com
     - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
       Hint: NavigationTitle
       Value: John Doe
@@ -38,6 +41,10 @@ Languages:
       Hint: LinkedInLink
       Value: |
         <link linktype="external" url="http://linkedin.com" anchor="" target="" />
+    - ID: "364dd460-6935-43d1-beb1-67e51886c21c"
+      Hint: Flag
+      Value: |
+        <image mediaid="{969E816A-2835-42C3-AE50-8D42AD4A084F}" />
     - ID: "5978b330-1d46-4065-8751-f74bf17d815e"
       Hint: Email
       Value: john.doe@sitecorehabitat.com
@@ -49,6 +56,9 @@ Languages:
       Hint: TwitterLink
       Value: |
         <link linktype="external" url="http://twitter.com" anchor="" target="" />
+    - ID: "739ea319-7db0-44fb-869a-44cf1c3d0ad3"
+      Hint: Country
+      Value: bulgaria
     - ID: "76972fcd-4bb0-4255-864e-077745efdf50"
       Hint: Title
       Value: CEO

@@ -121,6 +121,7 @@
     <Content Include="Views\PageContent\PageTeaser.cshtml" />
     <Content Include="Views\PageContent\PageTitle.cshtml" />
     <Content Include="Views\PageContent\PageImage.cshtml" />
+    <Content Include="Views\PageContent\Content.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -133,6 +134,7 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\PageContentController.cs" />
     <Compile Include="Indexing\PageContentIndexingProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Templates.cs" />
@@ -188,4 +190,3 @@
   </Target>
   -->
 </Project>
-

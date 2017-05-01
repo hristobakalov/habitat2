@@ -118,6 +118,7 @@
     <Content Include="Views\Person\EmployeeSearchResult.cshtml" />
     <Content Include="Views\Person\EmployeesCarousel.cshtml" />
     <Content Include="packages.config" />
+    <Content Include="Views\Person\EmployeeFlag.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -180,7 +181,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>55507</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
@@ -202,4 +203,3 @@
   </Target>
   -->
 </Project>
-

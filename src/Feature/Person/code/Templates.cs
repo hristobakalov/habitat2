@@ -45,7 +45,10 @@
         public static readonly ID LinkedInLink = new ID("{2B13DFAB-3450-45EF-93F4-BEAA6F544FA6}");
         public static readonly ID TwitterLink = new ID("{6DE98EF7-1209-40A3-A63E-16DBEF015211}");
         public static readonly ID BlogLink = new ID("{69A846D9-4C7F-435C-A8DC-87E2D7359CFA}");
-        public static string Biography_FieldName = "Biography";
+        public static readonly ID Website = new ID("{11107CCB-8EB3-4309-8DD1-CBA870338904}");
+        public static readonly ID Country = new ID("{739EA319-7DB0-44FB-869A-44CF1C3D0AD3}");
+        public static readonly ID Flag = new ID("{364DD460-6935-43D1-BEB1-67E51886C21C}");
+                public static string Biography_FieldName = "Biography";
       }
     }
   }

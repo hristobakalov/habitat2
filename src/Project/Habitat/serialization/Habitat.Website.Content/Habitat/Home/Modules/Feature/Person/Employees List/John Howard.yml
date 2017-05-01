@@ -49,6 +49,9 @@ Languages:
       Hint: TwitterLink
       Value: |
         <link linktype="external" url="http://twitter.com" anchor="" target="" />
+    - ID: "739ea319-7db0-44fb-869a-44cf1c3d0ad3"
+      Hint: Country
+      Value: denmark
     - ID: "76972fcd-4bb0-4255-864e-077745efdf50"
       Hint: Title
       Value: CTO

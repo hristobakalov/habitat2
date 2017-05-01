@@ -1,0 +1,72 @@
+﻿---
+ID: "9aac7829-7eae-4ed0-872d-a674eaa081cd"
+Parent: "dac24edd-44fb-42ef-9ecd-1e8daf706386"
+Template: "94a8c8e9-690b-4e65-98e7-f95800222767"
+Path: /sitecore/content/Habitat/Home/Article
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F80924FB-8DF1-492E-AAE6-D85F3E910A0A}"
+              p:before="*"
+              s:ds="{83575DB8-6AC1-446E-AF0A-98C8720A426C}"
+              s:id="{4FA82AA0-3ADF-45C5-BA77-A54C061F3D85}"
+              s:par=""
+              s:ph="/page-layout/section_bd8f6f8b-01bf-486e-80be-9269817df562">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="5125E846471644689D3BBFF0751D480F"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="139149F7CDDC47B9A251A18D4C5D609A"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{83575DB8-6AC1-446E-AF0A-98C8720A426C}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{BD8F6F8B-01BF-486E-80BE-9269817DF562}"
+              p:after="r[@uid='{66422117-69C1-4B62-9323-482F16C4F244}']"
+              s:id="{D201A487-5099-48A1-8189-55944F70C6CB}"
+              s:ph="page-layout" />
+          </d>
+        </r>
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Article
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170426T112144Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "c30a013f-3cc8-4961-9837-1c483277084a"
+      Hint: Title
+      Value: Article
+    - ID: "ca0479ce-0bfe-4522-83de-ba688b380a78"
+      Hint: BrowserTitle
+      Value: Article
+    - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
+      Hint: Body
+      Value: hELLOOOO
