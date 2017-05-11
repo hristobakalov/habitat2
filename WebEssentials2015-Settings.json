@@ -25,7 +25,7 @@
   "General": {
     "AllMessagesToOutputWindow": false,
     "KeepImportantComments": true,
-    "ShowLogoWatermark": false,
+    "ShowLogoWatermark": true,
     "SvgPreviewPane": true
   },
   "Html": {
@@ -37,7 +37,8 @@
     "EnableMicrodataValidation": true,
     "MinifyAngularBindingExpressions": false,
     "MinifyKnockoutBindingExpressions": false,
-    "ProcessableScriptTypeList": null
+    "ProcessableScriptTypeList": null,
+    "PreserveCase": false
   },
   "JavaScript": {
     "BlockCommentCompletion": true,

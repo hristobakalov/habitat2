@@ -1,0 +1,31 @@
+﻿@model List<Sitecore.Feature.SingleMenu.Models.SingleMenu>
+
+<style>
+    .specialMenuItem div {
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 15px;
+        min-height: 100px;
+        vertical-align: middle;
+        margin-bottom: 10px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<h1>Hello</h1>
+<div class="row" style="padding: 20px">
+    @foreach (var singleItem in Model)
+    {
+        <div class="col-md-2 specialMenuItem">
+            <div class="@singleItem.CssClass">@singleItem.Title</div>
+        </div>
+    }
+</div>
+
+

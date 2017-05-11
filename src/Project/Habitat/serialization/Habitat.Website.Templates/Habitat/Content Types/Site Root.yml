@@ -7,7 +7,7 @@ DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Applications/16x16/window_earth.png
+  Value: Applications/32x32/window_earth.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Type: tree list
@@ -21,6 +21,7 @@ SharedFields:
     {748EBA96-3F0C-4F45-8AFB-DE8DCC707B84}
     {5B6F8720-3A93-4DA1-92A0-C3E85E01219A}
     {B524E8BE-A099-4A63-BE3F-DD4C42FD4185}
+    {6ED21988-BE2C-4B4F-941D-014A4A87A4DD}
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100

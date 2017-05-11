@@ -1,0 +1,14 @@
+﻿---
+ID: "6f4df86a-f59e-4a61-bf5d-21d14c16480a"
+Parent: "c7c95984-e060-42d9-bbc6-b45c18768905"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Habitat/Settings/Themes
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170510T122132Z

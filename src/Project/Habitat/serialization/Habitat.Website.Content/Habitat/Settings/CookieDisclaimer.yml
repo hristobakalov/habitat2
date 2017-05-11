@@ -1,0 +1,33 @@
+﻿---
+ID: "158f739e-7618-4585-94d7-28b227b84b18"
+Parent: "c7c95984-e060-42d9-bbc6-b45c18768905"
+Template: "b37354eb-5ede-4514-afb8-ab214e71156e"
+Path: /sitecore/content/Habitat/Settings/CookieDisclaimer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170510T100349Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "87461bfa-6605-4773-b201-b5f022d80737"
+      Hint: popupBackgroundColor
+      Value: #0af5d8
+    - ID: "90e38a9c-089f-4d12-a9d4-6b35e44df849"
+      Hint: TextColor
+      Value: #000000
+    - ID: "9a820013-f337-4fc9-87e9-19b3efbdad63"
+      Hint: ButtonText
+      Value: Accept *cries in spanish*
+    - ID: "c27d71c6-01c5-47d8-b1fd-ffd32cbff736"
+      Hint: Message
+      Value: 
+    - ID: "e32fadca-1740-45b2-ac71-4f19eadedc4a"
+      Hint: ButtonBackgroundColor
+      Value: #ff0000

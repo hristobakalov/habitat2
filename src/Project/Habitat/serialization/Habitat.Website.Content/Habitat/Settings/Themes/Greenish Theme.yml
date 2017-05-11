@@ -1,0 +1,21 @@
+﻿---
+ID: "410263b7-ed10-4f2a-8cb6-e5ac1101a141"
+Parent: "6f4df86a-f59e-4a61-bf5d-21d14c16480a"
+Template: "5103b857-b532-4722-82b4-e71aa8890c71"
+Path: /sitecore/content/Habitat/Settings/Themes/Greenish Theme
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1bd5c4ff-8865-45b3-82d9-380b8225f156"
+      Hint: CSS path
+      Value: /styles/themeAwful.css
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170510T122158Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

@@ -1,0 +1,31 @@
+﻿---
+ID: "de0dd170-b72e-4150-bee0-c8506e87ca5b"
+Parent: "72424fa6-ecbd-4ba2-9c1c-309c21349911"
+Template: "2dc77187-a29b-4ff2-b2fb-6b900f6b3195"
+Path: /sitecore/content/Habitat/Home/Modules/Feature/Speaker/Jon Doe
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24f30d32-2bed-4a24-9cc4-24552e56830f"
+      Hint: Description
+      Value: Bla bla bla
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170501T094212Z
+    - ID: "4a2468ee-9acb-408a-b34d-9d4ef8158810"
+      Hint: Name
+      Value: $name
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "cb58cee8-5812-4b40-a643-c3b8c80a37c9"
+      Hint: Image
+      Value: |
+        <image mediapath="/flag_china" alt="" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="~/media/flag_china" mediaid="{C9CEF921-4705-4B5A-9F72-5BC92D1F5273}" />
+    - ID: "f3b6ba8a-e1e7-4ceb-8046-5977d13b2557"
+      Hint: Title
+      Value: SitecoreMPV

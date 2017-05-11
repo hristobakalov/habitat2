@@ -1,0 +1,30 @@
+﻿---
+ID: "e6ea35ff-0aea-4215-80fa-eaa707fad7a2"
+Parent: "8fa37ae9-ca7f-4d69-ba54-1ae031c18f55"
+Template: "369c34b3-d8d5-457f-89af-2f4f22c901af"
+Path: /sitecore/content/Habitat/Settings/GloballyInsertedScripts/Stupid code
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170509T144236Z
+    - ID: "3aac95fc-4803-494f-a21d-30bc1aef5d31"
+      Hint: Script
+      Value: |
+        <script>
+           console.log("Hello to Section and Article templates");
+        </script>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ff07804f-a133-4fe6-a94a-e2da3e8a6a2c"
+      Hint: Pages
+      Type: Treelist
+      Value: |
+        {8EE208F9-A6A6-41E2-88A0-C188737A178C}
+        {94A8C8E9-690B-4E65-98E7-F95800222767}

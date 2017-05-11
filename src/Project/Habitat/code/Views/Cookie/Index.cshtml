@@ -1,0 +1,26 @@
+﻿@using Sitecore.Habitat.Website.Models;
+@model CookieDisclaimer
+
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+    var cookieVar = @Html.Raw(Json.Encode(Model))
+    window.addEventListener("load", function () {
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": cookieVar["PopUpBackgroundColor"],
+                    "text": cookieVar["TextColor"]
+                },
+                "button": {
+                    "background": cookieVar["ButtonBackgroundColor"]
+                }
+            },
+            "content": {
+                "message": cookieVar["Message"],
+                "dismiss": cookieVar["ButtonText"]
+            }
+        })
+    });
+</script>

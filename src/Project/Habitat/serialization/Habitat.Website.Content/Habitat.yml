@@ -105,6 +105,9 @@ Languages:
     - ID: "835fa523-d28a-46a2-a589-6aa4a5bf0846"
       Hint: Register Outcome
       Value: "{C2D9DFBC-E465-45FD-BA21-0A06EBE942D6}"
+    - ID: "8a6f0f84-e80a-4e98-ba0c-22a0564b2aea"
+      Hint: Current Theme
+      Value: "{1D475FD6-A76C-49A1-AFCF-29FAE5B442A0}"
     - ID: "9c428556-5d7b-46ac-b0bb-b06a4f4c9591"
       Hint: OrganisationEmail
       Value: "<link text='sales@sitecore.net' linktype='mailto' style='' url='mailto:sales@sitecore.net'  title='' />"

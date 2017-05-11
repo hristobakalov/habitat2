@@ -1,0 +1,21 @@
+﻿---
+ID: "72bea2d0-cff4-4dfc-b0b9-91693cb4e134"
+Parent: "dac24edd-44fb-42ef-9ecd-1e8daf706386"
+Template: "7e4797f9-7c4a-4508-8c36-ccef678e015e"
+Path: /sitecore/content/Habitat/Home/Gradient
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170511T081717Z
+    - ID: "295b4025-64e8-4d96-9ba5-23b64367b8ac"
+      Hint: Menus
+      Type: Treelist
+      Value: "{0249879F-B2E2-4057-8938-3584B095D920}"
+    - ID: "a738511b-d01f-4467-9a64-f44178737bc8"
+      Hint: Title
+      Value: Gradient

@@ -70,3 +70,7 @@ Languages:
     - ID: "d74f396d-5c5e-4916-bd0a-bfd58b6b1967"
       Hint: Body
       Value: hELLOOOO
+    - ID: "f3e32893-f3b1-4b1d-95a4-722ed70b8a14"
+      Hint: Script
+      Value: |
+        <script>alert("This comes from the item itself!")</script>
